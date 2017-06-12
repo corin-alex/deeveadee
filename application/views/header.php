@@ -19,18 +19,20 @@
     <link rel="stylesheet" href="resources/css/style.min.css">
 </head>
 <body>
-<div id="sidebar" class="sidebar">
-    <div class="sidebar-header">
-        <a id="sidebar-close" href="#"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a>
-    </div>
+
+<div class="top-bar">
+<span class="brand">Deeveadee</span>
+<div class="float-right">
+    <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>
 </div>
-<header>
-    <nav class="navbar main-nav">
-        <div class="navbar-right">
-            <ul class="nav navbar-nav">
-                <li><a href="#" id="main-menu" ><span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span></a></li>
-            </ul>
-        </div>
-    </nav>
-</header>
-<main class="container">
+</div>
+<div class="wrap">
+    <main>
+        <nav class="main-menu">
+            Accueil
+            <div class="float-right">
+                <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+            </div>
+        </nav>
+        <div class="content">
+

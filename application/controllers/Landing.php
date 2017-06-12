@@ -10,6 +10,5 @@ class Landing extends CI_Controller {
         $this->load->view('header');
         $this->load->view('landing_page', $vars);
         $this->load->view('footer');
-
     }
 }
