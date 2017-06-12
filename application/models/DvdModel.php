@@ -17,4 +17,11 @@ class DvdModel extends CI_Model
         $query = $this->db->get('dvd');
         return $query->result();
     }
+
+    public function getOne($id) {
+
+        $this->db->where('id =', $id);
+        $query = $this->db->get('dvd');
+        return $query->result()[0];
+    }
 }

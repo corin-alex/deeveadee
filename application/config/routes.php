@@ -53,3 +53,4 @@ $route['default_controller'] = 'landing';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['landing'] = 'landing';
+$route['landing/view/(:int)'] = 'landing/view/$1';

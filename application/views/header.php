@@ -7,16 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!--[if lt IE 9]>
-    <script type="text/javascript" src="resources/js/html5shiv.min.js"></script>
-    <script type="text/javascript" src="resources/js/respond.min.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>assets/js/html5shiv.min.js"></script>
+    <script type="text/javascript" src="<?= base_url(); ?>assets/js/respond.min.js"></script>
     <![endif]-->
 
     <link rel="shortcut icon" href="favicon.ico">
-    <link rel="icon" type="image/png" href="resources/img/favicon.png">
+    <link rel="icon" type="image/png" href="<?= base_url(); ?>assets/img/favicon.png">
 
-    <link href="resources/css/font-awesome.min.css" rel="stylesheet">
-    <link href="resources/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="resources/css/style.min.css">
+    <link href="<?= base_url(); ?>assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="<?= base_url(); ?>assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?= base_url(); ?>assets/css/style.min.css">
 </head>
 <body>
 

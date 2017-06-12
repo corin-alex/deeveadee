@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Client :  127.0.0.1
--- Généré le :  Lun 05 Juin 2017 à 23:20
+-- Généré le :  Lun 12 Juin 2017 à 13:51
 -- Version du serveur :  5.7.14
 -- Version de PHP :  7.0.10
 
@@ -77,19 +77,21 @@ CREATE TABLE `dvd` (
   `categorieD` varchar(255) NOT NULL,
   `dateAchatD` int(10) UNSIGNED NOT NULL,
   `nombreD` int(10) UNSIGNED NOT NULL,
-  `societeD` int(10) UNSIGNED NOT NULL
+  `societeD` int(10) UNSIGNED NOT NULL,
+  `afficheD` varchar(255) DEFAULT NULL,
+  `descriptionD` text
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Contenu de la table `dvd`
 --
 
-INSERT INTO `dvd` (`id`, `numD`, `titreD`, `auteurD`, `anneeD`, `categorieD`, `dateAchatD`, `nombreD`, `societeD`) VALUES
-(1, 0, 'Spider-Man: Homecoming', 'Jon Watts ', 2017, 'Action', 1496695960, 10, 1),
-(2, 0, 'Logan', 'James Mangold', 2017, 'Action', 1496695960, 10, 1),
-(3, 0, 'Interstellar', 'Christopher Nolan', 2014, 'Science fiction', 1496695960, 10, 1),
-(4, 0, 'Rogue One: A Star Wars Story', 'Gareth Edwards (II)', 2016, 'Science fiction', 1496695960, 10, 1),
-(5, 0, 'test', 'test', 2017, 'test', 0, 10, 2);
+INSERT INTO `dvd` (`id`, `numD`, `titreD`, `auteurD`, `anneeD`, `categorieD`, `dateAchatD`, `nombreD`, `societeD`, `afficheD`, `descriptionD`) VALUES
+(1, 0, 'Spider-Man: Homecoming', 'Jon Watts ', 2017, 'Action', 1496695960, 10, 1, 'homecoming.jpg', 'Après ses spectaculaires débuts dans Captain America : Civil War, le jeune Peter Parker découvre peu à peu sa nouvelle identité, celle de Spider-Man, le super-héros lanceur de toile. Galvanisé par son expérience avec les Avengers, Peter rentre chez lui auprès de sa tante May, sous l’œil attentif de son nouveau mentor, Tony Stark. Il s’efforce de reprendre sa vie d’avant, mais au fond de lui, Peter rêve de se prouver qu’il est plus que le sympathique super héros du quartier. L’apparition d’un nouvel ennemi, le Vautour, va mettre en danger tout ce qui compte pour lui... '),
+(2, 0, 'Logan', 'James Mangold', 2017, 'Action', 1496695960, 10, 1, 'logan.jpg', 'Dans un futur proche, un certain Logan, épuisé de fatigue, s’occupe d’un Professeur X souffrant, dans un lieu gardé secret à la frontière Mexicaine. Mais les tentatives de Logan pour se retrancher du monde et rompre avec son passé vont s’épuiser lorsqu’une jeune mutante traquée par de sombres individus va se retrouver soudainement face à lui. '),
+(3, 0, 'Interstellar', 'Christopher Nolan', 2014, 'Science fiction', 1496695960, 10, 1, 'interstellar.jpg', 'Le film raconte les aventures d’un groupe d’explorateurs qui utilisent une faille récemment découverte dans l’espace-temps afin de repousser les limites humaines et partir à la conquête des distances astronomiques dans un voyage interstellaire. '),
+(4, 0, 'Rogue One: A Star Wars Story', 'Gareth Edwards (II)', 2016, 'Science fiction', 1496695960, 10, 1, 'rogueone.jpg', 'Situé entre les épisodes III et IV de la saga Star Wars, le film nous entraîne aux côtés d’individus ordinaires qui, pour rester fidèles à leurs valeurs, vont tenter l’impossible au péril de leur vie. Ils n’avaient pas prévu de devenir des héros, mais dans une époque de plus en plus sombre, ils vont devoir dérober les plans de l’Étoile de la Mort, l’arme de destruction ultime de l’Empire. '),
+(5, 0, 'test', 'test', 2017, 'test', 0, 10, 2, '', NULL);
 
 -- --------------------------------------------------------
 
