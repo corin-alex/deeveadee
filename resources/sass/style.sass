@@ -1,0 +1,79 @@
+$color1: #97ecdb
+$color2: #fc5e21
+$color3: #c90b0b
+$color4: #70146a
+$color5: #879528
+
+@font-face
+  font-family: 'Comfortaa'
+  src: url("../fonts/Comfortaa-Regular.ttf")
+
+@font-face
+  font-family: 'Samarkan'
+  src: url("../fonts/SAMAN___.TTF")
+
+body
+  font-family: 'Comfortaa', sans-serif
+  background-color: #F4F4F4
+
+.main-nav
+  border-radius: 0
+  background-color: #ccc
+  padding-right: 1em
+
+  .glyphicon
+    font-size: 1.2em
+
+.sidebar
+  height: 100%
+  background: #EEE
+  position: absolute
+  left: 0
+  top: 0
+  z-index: 2
+  overflow: hidden
+  width: 0
+  transition-duration: 0.5s
+
+.sidebar-visible
+  width: 250px
+
+
+.sidebar-header
+  height: 2em
+  line-height: 2em
+  text-align: right
+  padding-right: 0.5em
+  a:link
+    color: #CCC
+
+main
+  min-height: 100vh
+
+footer
+  height: 2.5em
+  line-height: 2.5em
+  background-color: #EEE
+  color: #888
+  font-size: 0.8em
+  text-align: center
+
+a, a:link, a:active, a:visited
+  color: $color4
+
+.thumb
+  padding: 1em
+  transition-duration: 0.5s
+
+  img
+    max-width: 100%
+
+.thumb:hover
+  background: white
+.float-right
+  float: right
+
+.categories
+  background-color: #FAFAFA
+  padding: 4em 0
+  text-align: center
