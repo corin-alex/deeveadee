@@ -21,17 +21,17 @@
 <body>
 
 <div class="top-bar">
-<span class="brand">Deeveadee</span>
-<div class="float-right">
+<a class="brand" href="<?= site_url('/'); ?>">Deeveadee</a>
+    <div class="float-right">
     <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>
 </div>
 </div>
 <div class="wrap">
     <main>
         <nav class="main-menu">
-            Accueil
+            <a href="<?= site_url('dvd/list/'); ?>">Voir le catalogue</a>
             <div class="float-right">
-                <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+                <a href="<?= site_url('/chart/view'); ?>"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> <span class="badge"><?= $chart_count ?></span></a>
             </div>
         </nav>
         <div class="content">

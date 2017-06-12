@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Landing extends CI_Controller {
+class Landing extends MY_Controller {
     public function index()
     {
         $this->load->model('DvdModel');
@@ -9,15 +9,6 @@ class Landing extends CI_Controller {
 
         $this->load->view('header');
         $this->load->view('landing_page', $vars);
-        $this->load->view('footer');
-    }
-
-    public function view($id = 1) {
-        $this->load->model('DvdModel');
-        $vars['dvd'] = $this->DvdModel->getOne($id);
-
-        $this->load->view('header');
-        $this->load->view('dvd_view', $vars);
         $this->load->view('footer');
     }
 }
