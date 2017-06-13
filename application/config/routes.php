@@ -53,9 +53,18 @@ $route['default_controller'] = 'landing';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 $route['landing'] = 'landing';
+
+// DVD
 $route['dvd/view/(:int)'] = 'dvd/view/$1';
 $route['dvd/list/(:int)/(:int)'] = 'dvd/list/$1/$2';
 $route['dvd/categorie/(:string)'] = 'dvd/categorie/$1';
+
+// Chart
 $route['chart/view'] = 'chart/view';
 $route['chart/add/(:int)'] = 'chart/add/$1';
 $route['chart/empty'] = 'chart/empty';
+
+// User
+$route['user/register'] = 'user/register';
+$route['user/login'] = 'user/login';
+$route['user/logout'] = 'user/logout';

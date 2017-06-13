@@ -21,10 +21,10 @@
 <body>
 
 <div class="top-bar">
-<a class="brand" href="<?= site_url('/'); ?>">Deeveadee</a>
+    <a class="brand" href="<?= site_url('/'); ?>">Deeveadee</a>
     <div class="float-right">
-    <span class="glyphicon glyphicon-log-in" aria-hidden="true"></span>
-</div>
+        <a href="<?= site_url('/user/login'); ?>"><span class="glyphicon glyphicon-log-in" aria-hidden="true"></span></a>
+    </div>
 </div>
 <div class="wrap">
     <main>
