@@ -3,28 +3,28 @@
 <div class="categories container-fluid">
     <div class="row">
         <div class="col-sm-3">
-            Categorie<br>
-            Categorie<br>
-            Categorie<br>
-            Categorie<br>
+            <a href="<?= site_url('dvd/categorie/action'); ?>">Action</a><br>
+            <a href="<?= site_url('dvd/categorie/aventure'); ?>">Aventure</a><br>
+            <a href="<?= site_url('dvd/categorie/science%20fiction'); ?>">Science fiction</a><br>
+            <a href="<?= site_url('dvd/categorie/drame'); ?>">Drame</a><br>
         </div>
         <div class="col-sm-3">
-            Categorie<br>
-            Categorie<br>
-            Categorie<br>
-            Categorie<br>
+            <a href="<?= site_url('dvd/categorie/Thriller'); ?>">Thriller</a><br>
+            <a href="<?= site_url('dvd/categorie/Romance'); ?>">Romance</a><br>
+            <a href="<?= site_url('dvd/categorie/Biopic'); ?>">Biopic</a><br>
+            <a href="<?= site_url('dvd/categorie/Comédie'); ?>">Comédie</a><br>
         </div>
         <div class="col-sm-3">
-            Categorie<br>
-            Categorie<br>
-            Categorie<br>
-            Categorie<br>
+            <a href="<?= site_url('dvd/categorie/Documentaire'); ?>">Documentaire</a><br>
+            <a href="<?= site_url('dvd/categorie/Péplum'); ?>">Péplum</a><br>
+            <a href="<?= site_url('dvd/categorie/Concert'); ?>">Concert</a><br>
+            <a href="<?= site_url('dvd/categorie/Spectacle'); ?>">Spectacle</a><br>
         </div>
         <div class="col-sm-3">
-            Categorie<br>
-            Categorie<br>
-            Categorie<br>
-            Categorie<br>
+            <a href="<?= site_url('dvd/categorie/Comédie%20dramatique'); ?>">Comédie dramatique</a><br>
+            <a href="<?= site_url('dvd/categorie/Animation'); ?>">Animation</a><br>
+            <a href="<?= site_url('dvd/categorie/Policier'); ?>">Policier</a><br>
+            <a href="<?= site_url('dvd/categorie/Guerre'); ?>">Guerre</a><br>
         </div>
     </div>
 </div>
