@@ -1,3 +1,13 @@
+<div class="intro">
+    <div class="container-fluid text-center">
+        <br><br>
+        <div class="page-header">
+        <h1><span class="the-d">D</span><small>eeveadee</small></h1>
+        </div>
+        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+    </div>
+</div>
+<br><br><br><br>
 <h2 class="text-center">Nouveautés</h2>
 <div class="container-fluid">
     <div class="row">
@@ -22,9 +32,86 @@
     <a href="<?= site_url('dvd/list/'); ?>">Voir tous les DVD</a>
     <br><br>
 </div>
-
+<br><br>
 <h2 class="text-center">Nos boutiques</h2>
 <div id="map"></div>
+
+<br><br>
+<h2 class="text-center">Nos formules</h2>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+           <div class="pricing-tmb">
+               <div class="pricing-header">
+                   <div class="princing-title">
+                       Essential
+                   </div>
+                    <div class="pricing-price">
+                        20€<sup><small>Mois</small></sup>
+                    </div>
+               </div>
+               <br>
+               <div class="container-fluid">
+                   <ul class="list-group">
+                       <li class="list-group-item">Cras justo odio</li>
+                       <li class="list-group-item">Dapibus ac facilisis in</li>
+                       <li class="list-group-item">Morbi leo risus</li>
+                   </ul>
+               </div>
+               <div class="text-center">
+                   <button class="btn btn-primary">Choisir</button>
+               </div>
+           </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="pricing-tmb">
+                <div class="pricing-header">
+                    <div class="princing-title">
+                        Standard
+                    </div>
+                    <div class="pricing-price">
+                        30€<sup><small>Mois</small></sup>
+                    </div>
+                </div>
+                <br>
+                <div class="container-fluid">
+                    <ul class="list-group">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                    </ul>
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-primary">Choisir</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+            <div class="pricing-tmb">
+                <div class="pricing-header">
+                    <div class="princing-title">
+                        Premium
+                    </div>
+                    <div class="pricing-price">
+                        40€<sup><small>Mois</small></sup>
+                    </div>
+                </div>
+                <br>
+                <div class="container-fluid">
+                    <ul class="list-group">
+                        <li class="list-group-item">Cras justo odio</li>
+                        <li class="list-group-item">Dapibus ac facilisis in</li>
+                        <li class="list-group-item">Morbi leo risus</li>
+                    </ul>
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-primary">Choisir</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br><br>
 <script>
     function initMap() {
         var uluru = {lat: 43.605160, lng: 3.882201};
