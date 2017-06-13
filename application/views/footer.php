@@ -28,10 +28,35 @@
         </div>
     </div>
 </div>
-</main>
+<div class="container-fluid footer">
+    <div class="row">
+        <div class="col-sm-4">
+            <h5>Information</h5>
+            <a href="#">A propos</a><br>
+            <a href="#">Nous contacter</a><br>
+            <a href="#">Mentions légales</a><br>
+            <a href="#">CGV</a><br>
+        </div>
+        <div class="col-sm-4">
+            <h5>Navigation</h5>
+            <a href="#">Accueil</a><br>
+            <a href="#">Catalogue</a><br>
+            <a href="#">Panier</a><br>
+            <a href="#">Historique de location</a><br>
+        </div>
+        <div class="col-sm-4">
+            <h5>Suivez nous</h5>
+            <a href="#">Facebook</a><br>
+            <a href="#">Twitter</a><br>
+            <a href="#">Google Plus</a><br>
+            <a href="#">Youtube</a><br>
+        </div>
+    </div>
+</div>
 <footer class="page-footer">
-    &copy; 2017 Deeveadee <br> Conception : www.corin-alex.com
+    &copy; 2017 Deeveadee - Conception : www.corin-alex.com
 </footer>
+</main>
 </div>
 <script type="text/javascript" src="<?= base_url(); ?>assets/js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="<?= base_url(); ?>assets/js/bootstrap.min.js"></script>

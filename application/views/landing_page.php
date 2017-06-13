@@ -1,4 +1,4 @@
-<div class="intro">
+<!--<div class="intro">
     <div class="container-fluid text-center">
         <br><br>
         <div class="page-header">
@@ -7,7 +7,7 @@
         <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
     </div>
 </div>
-<br><br><br><br>
+<br><br><br><br>-->
 <h2 class="text-center">Nouveautés</h2>
 <div class="container-fluid">
     <div class="row">
