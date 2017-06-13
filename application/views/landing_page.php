@@ -32,11 +32,7 @@
     <a href="<?= site_url('dvd/list/'); ?>">Voir tous les DVD</a>
     <br><br>
 </div>
-<br><br>
-<h2 class="text-center">Nos boutiques</h2>
-<div id="map"></div>
 
-<br><br>
 <h2 class="text-center">Nos formules</h2>
 <div class="container-fluid">
     <div class="row">
@@ -111,6 +107,9 @@
         </div>
     </div>
 </div>
+
+<h2 class="text-center">Nos boutiques</h2>
+<div id="map"></div>
 <br><br>
 <script>
     function initMap() {
